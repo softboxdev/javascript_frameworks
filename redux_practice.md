@@ -226,7 +226,7 @@ const Counter = () => {
       <div style={{ marginTop: '20px' }}>
         <p>Количество операций: {counter.operationCount}</p>
         <p>
-          История: {counter.history.slice(-5).join(', ')} 
+          История: {counter.history && counter.history.slice(-5).join(', ')}
           {/* Показываем последние 5 значений */}
         </p>
       </div>
