@@ -581,7 +581,7 @@ const app = Vue.createApp({
     <!-- Вызов метода с параметрами -->
     <button @click="sayHello('Vue')">Поздороваться</button>
     
-    <!-- Доступ к原生 event -->
+    <!-- Доступ к event -->
     <button @click="warn('Форма не может быть отправлена.', $event)">
         Отправить
     </button>
