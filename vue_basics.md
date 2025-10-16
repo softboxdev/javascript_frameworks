@@ -2080,7 +2080,7 @@ export default {
   <!-- "sayHello('Vue')" - вызов метода с аргументом -->
   <button @click="sayHello('Vue')">Поздороваться</button>
   
-  <!-- Доступ к原生 event через $event -->
+  <!-- Доступ к event через $event -->
   <!-- "warn('Сообщение', $event)" - передача события -->
   <button @click="warn('Форма не отправлена', $event)">
     Отправить
